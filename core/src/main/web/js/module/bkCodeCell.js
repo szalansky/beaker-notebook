@@ -370,6 +370,8 @@
                     }
                 });
 
+                scope.cm.display.inputDiv.overflow = "";
+                window.ccm = scope.cm;
                 scope.cm.focus();
                 scope.updateUI(scope.getEvaluator());
                 bkCoreManager.registerFocusable(scope.cellmodel.id, scope.cm);
