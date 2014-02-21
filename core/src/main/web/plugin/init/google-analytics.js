@@ -4,7 +4,6 @@
         if (ga) {
             ga('send', 'pageview');
         }
-
         return {
             log: function (event, obj) {
                 if (ga && event === "open") {
