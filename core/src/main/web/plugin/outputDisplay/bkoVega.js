@@ -17,9 +17,10 @@
  * M_bkoVega
  * This is the output display component for displaying vega JSON (http://trifacta.github.io/vega/).
  */
-(function () {
+define(function (require, exports, module) {
     'use strict';
-    beaker.bkoDirective('bkoVega', function () {
+    var NAME = "Vega"
+    beaker.bkoDirective(NAME, function () {
         return {
             template: "<input type='text' ng-model='model'></input>" +
                 "<button ng-click='parse()'>parse</button>" +
@@ -45,4 +46,9 @@
             }
         };
     });
-})();
+    exports.name = NAME;
+//    exports.isApplicable = function (result) {
+//        return (result.type === "Latex");
+//    };
+    beaker.registerOutputDisplay("Vege", [NAME], 0);
+});

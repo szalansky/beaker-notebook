@@ -17,9 +17,10 @@
  * M_bkoLatex
  * This is the output display component for displaying results of LaTex code.
  */
-(function () {
+define(function (require, exports, module) {
     'use strict';
-    beaker.bkoDirective('Latex', ["generalUtils", function (generalUtils) {
+    var NAME = 'Latex';
+    beaker.bkoDirective(NAME, ["generalUtils", function (generalUtils) {
 
         var deferred = Q.defer();
 
@@ -59,4 +60,9 @@
             }
         };
     }]);
-})();
+    exports.name = NAME;
+//    exports.isApplicable = function (result) {
+//        return (result.type === "Latex");
+//    };
+    beaker.registerOutputDisplay("Latex", [NAME], 0);
+});

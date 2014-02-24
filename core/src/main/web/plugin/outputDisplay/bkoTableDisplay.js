@@ -17,9 +17,10 @@
  * M_bkoTableDisplay
  * This is the output display component for displaying tables.
  */
-(function () {
+define(function (require, exports, module) {
     'use strict';
-    beaker.bkoDirective('Table', ["bkCellPluginManager", function (bkCellPluginManager) {
+    var NAME = 'Table';
+    beaker.bkoDirective(NAME, ["bkCellPluginManager", function (bkCellPluginManager) {
         return {
             template: '<div class="slickgrid" style="height:500px;"></div>',
             controller: function ($scope) {
@@ -180,5 +181,11 @@
             }
         };
     }]);
-})();
+
+    exports.name = NAME;
+//    exports.isApplicable = function (result) {
+//        return (result.type === "TableDisplay");
+//    };
+    beaker.registerOutputDisplay("TableDisplay", [NAME], 0);
+});
 

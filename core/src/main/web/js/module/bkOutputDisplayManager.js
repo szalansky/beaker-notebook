@@ -14,20 +14,26 @@
  *  limitations under the License.
  */
 /**
- * M_bkoImage
- * This is the output display component for displaying images transferred in byte arrays.
+ * bkCellPluginManager
  */
 (function () {
     'use strict';
-    beaker.bkoDirective("Image", function () {
+    var M_bkOutputDisplayManager = angular.module('M_bkOutputDisplayManager', [
+        'M_bkUtils',
+        'M_bkHelper'  // This is only for ensuring that window.bkHelper is set, don't use bkHelper directly
+    ]);
+    M_bkOutputDisplayManager.factory('bkOutputDisplayManager', function (bkUtils) {
+        var _outputDisplays = {};
         return {
-            template: "<img />",
-            link: function (scope, element, attrs) {
-               var img = element.find("img").first();
-                if (scope.model.getCellModel()) {
-                    img.attr("src", "data:image/png;base64," +
-                        scope.model.getCellModel().imageData);
-                }
+            reset: function () {
+                var self = this;
+                $.get('/beaker/rest/util/preloadOutputDisplays')
+                    .done(function (urls) {
+                        urls.forEach(self.load);
+                    });
+            },
+            load: function (url) {
+                return bkUtils.loadModule(url);
             }
         };
     });

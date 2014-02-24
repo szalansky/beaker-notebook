@@ -198,4 +198,17 @@ public class UtilRest
     public List<String> cellMenuPlugins() {
         return _cellMenuPlugins;
     }
+
+    /* OutputDisplays to be pre-loaded */
+    private List<String> _preloadedOutputDisplays = new ArrayList<String>();
+    @POST
+    @Path("addPreLoadedOutputDisplay")
+    public void addPreloadedOutputDisplay(String p) {
+        _preloadedOutputDisplays.add(p);
+    }
+    @GET
+    @Path("preloadOutputDisplays")
+    public List<String> getPreloadOutputDisplays() {
+        return _preloadedOutputDisplays;
+    }
 }

@@ -17,9 +17,10 @@
  * M_bkoChart
  * This is the output display component for displaying charts.
  */
-(function () {
+define(function (require, exports, module) {
     'use strict';
-    beaker.bkoDirective("Chart",
+    var NAME = 'Chart';
+    beaker.bkoDirective(NAME,
         ["flotr2ViewUtils",
             "outputDisplayService",
             "bkCellPluginManager",
@@ -159,4 +160,12 @@
             }
         };
     }]);
-})();
+
+    exports.name = NAME;
+//    exports.isApplicable = function (result) {
+//        return result.type === "Plot" ||
+//              result.type === "TimePlot";
+//    };
+    beaker.registerOutputDisplay("Plot", [NAME], 0);
+    beaker.registerOutputDisplay("TimePlot", [NAME], 0);
+});

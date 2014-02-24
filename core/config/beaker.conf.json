@@ -15,5 +15,12 @@
         "./plugin/menu/help.js"
     ],
     "notebook-cell-menu-plugins": [
+    ],
+    "pre-load-output-displays": [
+        "./plugin/outputDisplay/bkoChart.js",
+        "./plugin/outputDisplay/bkoTableDisplay.js",
+        "./plugin/outputDisplay/bkoImage.js",
+        "./plugin/outputDisplay/bkoLatex.js",
+        "./plugin/outputDisplay/bkoVega.js"
     ]
 }

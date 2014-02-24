@@ -96,7 +96,8 @@
             'M_bkControl',
             'M_bkApp',
             'M_bkCloseSessionApp',
-            'M_bkDebug'
+            'M_bkDebug',
+            'M_bkOutputDisplayManager'
         ]);
         // setup routing. the template is going to replace ng-view
         beaker.config(function ($routeProvider) {
@@ -213,6 +214,9 @@
                 }
             });
             window.bkDebug = bkDebug;
+        });
+        beaker.run(function (bkOutputDisplayManager) {
+            bkOutputDisplayManager.reset();
         });
 
         beaker.run(function (evaluatorManager) {

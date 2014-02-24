@@ -157,6 +157,14 @@ public class Init {
                     utilRest.addCellMenuPlugin(iterator.next());
                 }
             }
+            {
+                JSONArray outputDisplays = (JSONArray) jsonObject.get("pre-load-output-displays");
+                @SuppressWarnings("unchecked")
+                Iterator<String> iterator = outputDisplays.iterator();
+                while (iterator.hasNext()) {
+                    utilRest.addPreloadedOutputDisplay(iterator.next());
+                }
+            }
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException("failed getting menu plugins from config file", e);
