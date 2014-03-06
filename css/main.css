@@ -1,0 +1,26 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.img-language {
+    width: 30%;
+    margin: 10px;
+}
+
+.text-main {
+    font-size: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
