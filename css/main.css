@@ -16,6 +16,19 @@ body {
     margin: 10px;
 }
 
+.img-language-about {
+    width: 75px;
+    margin: 10px;
+}
+
+.row-feature {
+    padding-top: 40px;
+}
+
+.h-feature {
+    margin-top: 0px;
+}
+
 .text-main {
     font-size: 20px;
 }
