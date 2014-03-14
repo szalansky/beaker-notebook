@@ -22,11 +22,16 @@ body {
 }
 
 .row-feature {
-    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .h-feature {
     margin-top: 0px;
+}
+
+.h-about {
+    padding-top: 75px;
 }
 
 .text-main {
@@ -35,5 +40,11 @@ body {
 
 .row {
     margin-bottom: 20px;
+}
+
+.footer {
+    color: #AAAAAA;
+    font-size: 12px;
+    padding-top: 50px;
 }
 
