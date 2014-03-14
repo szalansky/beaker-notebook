@@ -48,3 +48,7 @@ body {
     padding-top: 50px;
 }
 
+.img-feature {
+    box-shadow: 5px 5px 10px #AAAAAA;
+}
+
