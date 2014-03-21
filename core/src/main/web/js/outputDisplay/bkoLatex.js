@@ -29,7 +29,7 @@
     scriptConfigMathJax.innerHTML =
         "MathJax.Hub.Config({tex2jax: {" +
             "displayMath: [['MATH_JAX_BEGIN', 'MATH_JAX_END']]," +
-            "inlineMath: [['MATH_JAX_INLINE_BEGIN', 'MATH_JAX_INLINE_END']]" +
+            "inlineMath: [['MATH_JAX_INLINE_BEGIN', 'MATH_JAX_INLINE_END'], ['$$', '$$']]" +
             "}});";
     document.head.appendChild(scriptConfigMathJax);
 

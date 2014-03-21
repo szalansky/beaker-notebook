@@ -143,10 +143,20 @@
           model: "="
         },
         controller: function($scope) {
-          $scope.items = _($scope.model.getCellModel().items).map(function(it) {
-            return {
-              result: it
-            };
+          console.log("OutputContainer controller");
+          var reset = function() {
+            console.log("OutputContainer reset");
+            $scope.items = _($scope.model.getCellModel().items).map(function(it) {
+              return {
+                result: it
+              };
+            });
+          };
+          reset();
+          $scope.$watch('model.getCellModel().items', function (newValue, oldValue) {
+            if (newValue !== oldValue) {
+              reset();
+            }
           });
         }
       }

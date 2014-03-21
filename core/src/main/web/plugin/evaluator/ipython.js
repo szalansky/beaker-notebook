@@ -89,8 +89,8 @@
             modelOutput.result.innertype !== "Html") {
           modelOutput.result = {
             type: "BeakerDisplay",
-            innertype: "Html",
-            object: ""
+            innertype: "OutputDisplay",
+            items: []
           };
         }
       }
@@ -100,7 +100,7 @@
       };
       var appendToResult = function(txtToAppend) {
         ensureOutputIsHtml();
-        modelOutput.result.object += txtToAppend;
+        modelOutput.result.items.push('itemx');
       };
 
       // begin
@@ -126,6 +126,8 @@
       };
       var callbacks = {
         execute_reply: function execute_reply(msg) {
+          console.log("execute_reply");
+          console.log(msg);
           var result = _(msg.payload).map(function(payload) {
             return IPython.utils.fixCarriageReturn(IPython.utils.fixConsole(payload.text));
           }).join("");
@@ -139,7 +141,11 @@
           bkHelper.refreshRootScope();
         },
         output: function output(type, value) {
+          console.log("output");
+          console.log(type);
+          console.log(value);
           modelOutput.outputArrived = true;
+          var typeset = false;
           if (type === "pyerr") {
             var trace = _.reduce(value.traceback, function(memo, line) {
               return  memo + "<br>" + IPython.utils.fixCarriageReturn(IPython.utils.fixConsole(line));
@@ -158,7 +164,11 @@
           } else {
             var elem = $(document.createElement("div"));
             var oa = new IPython.OutputArea(elem);
-            oa.append_mime_type(oa.convert_mime_types({}, value.data), elem, true);
+            var mimeType = oa.convert_mime_types({}, value.data);
+            if (mimeType.latex !== undefined) {
+              typeset = elem;
+            }
+            oa.append_mime_type(mimeType, elem, true);
             var table = bkHelper.findTable(elem[0]);
             if (table) {
               modelOutput.result = table;
@@ -169,6 +179,9 @@
           modelOutput.elapsedTime = now() - startTime;
           deferred.resolve();
           bkHelper.refreshRootScope();
+          if (typeset) {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+          }
         },
         clear_output: function(msg) {
           console.log("clear_output: " + msg);
