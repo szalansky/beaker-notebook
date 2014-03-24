@@ -100,7 +100,7 @@
       };
       var appendToResult = function(txtToAppend) {
         ensureOutputIsHtml();
-        modelOutput.result.items.push('itemx');
+        modelOutput.result.items.push({ result: "itemx"});
       };
 
       // begin
