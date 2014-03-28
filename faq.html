@@ -10,7 +10,26 @@ layout: default
 
 <div class='row'>          
     <div class='col-sm-12'>
-        FAQ - TODO
+            <h1>Beaker FAQ</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <h2>Installing and launching Beaker</h2>
+                    
+                    <h4>Unsupported major.minor version</h4>
+                    <p>If you see an error like "java.lang.UnsupportedClassVersionError: : Unsupported major.minor version 51.0", it means Java 7 can't be found. Please install <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">JDK 7</a></p>
+
+                    <h4>Can I change the heap size for Groovy?</h4>
+                    <p>Yes. To customize the heap size, launch Beaker like this:</p>                      
+                    <p><code>./beaker.command  --plugin-option Groovy:-Xmx8g</code></p>
+                    
+                    <h2>General</h2>
+                    
+                    <h4>Can I customize my default notebook.</h4>
+                    <p>Yes, create a notebook you like and save it to ~/.beaker/default.bkr. This will be loaded whenever you click 'new notebook.'</p>                      
+                    
+                </div>
+            </div>
     </div>          
 </div>      
   
