@@ -52,3 +52,6 @@ body {
     box-shadow: 5px 5px 10px #AAAAAA;
 }
 
+.panel-heading {
+    cursor: pointer;
+}
