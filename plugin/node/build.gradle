@@ -1,5 +1,5 @@
 def installDir = hasProperty('evalPluginDir') ? new File(evalPluginDir, 'node') : project.buildDir
-task syncFiles (type: Sync) {
+task copyFiles (type: Copy) {
   from 'src/dist'
   into installDir
 }
@@ -12,5 +12,5 @@ task installNodePackages (type: Exec) {
 
 task installApp
 
-installNodePackages.dependsOn syncFiles
+installNodePackages.dependsOn copyFiles
 installApp.dependsOn installNodePackages
