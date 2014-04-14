@@ -4,43 +4,43 @@ title: FAQ
 ---
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function() {
         $("#nav-faq").addClass("active");
     })
 </script>
 
 <div class='row'>          
     <div class='col-sm-12'>
-            <div class="row">
-                <div class="col-md-12">
-                    
-                    <h2>Installing and launching Beaker</h2>
-                    
-                    <h4>Unsupported major.minor version</h4>
-                    <p>If you see an error like "java.lang.UnsupportedClassVersionError: : Unsupported major.minor version 51.0", it means Java 7 can't be found. Please install <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">JDK 7</a></p>
+        <div class="row">
+            <div class="col-md-12">
 
-                    <h4>Can I change the heap size for Groovy?</h4>
-                    <p>Yes. To customize the heap size, launch Beaker like this:</p>                      
-                    <p><code>./beaker.command  --plugin-option Groovy:-Xmx8g</code></p>
-                    
-                    <h2>General</h2>
-                    
-                    <h4>Can I customize my default notebook?</h4>
-                    <p>Yes, create a notebook you like and save it to ~/.beaker/default.bkr. This will be loaded whenever you click 'new notebook.'</p>                      
-                    
-                    <h4>Why are you asking for my email address?</h4>
-                    <p>The primary purpose of the beta is to get user feedback on what needs to be improved before our full launch. We may periodically ask you to complete short questionnaires about your experience. We may also send up notifications when significant new features have been added.</p>
-                    
-                    <p>You can unsubscribe from our email list at any time and continue using Beaker.</p>
-                    
-                    <h4>How does Beaker relate to IPython Notebook</h4>
-                    <p>If you only work in Python, you can consider Beaker an alternative UI to IPython. Our Python plugin runs an IPython kernel on the backend, so all of your code will work the way you expect it to. We do have some UI features that we think are compelling, so check it out!</p>
-                    
-                    <p>If you work with multiple languages, or one language that isn't Python, we think you'll find Beaker much more pleasant. Beaker's core was built to be language agnostic, so all languages are treated equally within Beaker.</p>
-                    
-                    <p>Since several of our plugins (Python, Julia, Ruby) are based on IPython kernels, we've been able to spend our time working on Beaker's UI and our other plugins. Many thanks to IPython for their great kernel architecture!</p>
-                </div>
+                <h2>Installing and launching Beaker</h2>
+
+                <h4>Unsupported major.minor version</h4>
+                <p>If you see an error like "java.lang.UnsupportedClassVersionError: : Unsupported major.minor version 51.0", it means Java 7 can't be found. Please install <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">JDK 7</a></p>
+
+                <h4>Can I change the heap size for Groovy?</h4>
+                <p>Yes. To customize the heap size, launch Beaker like this:</p>                      
+                <p><code>./beaker.command  --plugin-option Groovy:-Xmx8g</code></p>
+
+                <h2>General</h2>
+
+                <h4>Can I customize my default notebook?</h4>
+                <p>Yes, create a notebook you like and save it to ~/.beaker/default.bkr. This will be loaded whenever you click 'new notebook.'</p>                      
+
+                <h4>Why are you asking for my email address?</h4>
+                <p>The primary purpose of the beta is to get user feedback on what needs to be improved before our full launch. We may periodically ask you to complete short questionnaires about your experience. We may also send up notifications when significant new features have been added.</p>
+
+                <p>You can unsubscribe from our email list at any time and continue using Beaker.</p>
+
+                <h4>How does Beaker relate to IPython Notebook</h4>
+                <p>If you only work in Python, you can consider Beaker an alternative UI to IPython. Our Python plugin runs an IPython kernel on the backend, so all of your code will work the way you expect it to. We do have some UI features that we think are compelling, so check it out!</p>
+
+                <p>If you work with multiple languages, or one language that isn't Python, we think you'll find Beaker much more pleasant. Beaker's core was built to be language agnostic, so all languages are treated equally within Beaker.</p>
+
+                <p>Since several of our plugins (Python, Julia, Ruby) are based on IPython kernels, we've been able to spend our time working on Beaker's UI and our other plugins. Many thanks to IPython for their great kernel architecture!</p>
             </div>
+        </div>
     </div>          
 </div>      
-  
+

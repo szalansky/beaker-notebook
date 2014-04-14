@@ -15,19 +15,19 @@
 }            
 
 .affix-top,.affix{
-  position: static;
+    position: static;
 }
 
 @media (min-width: 768px) {
     #sidebar.affix-top {
-      position: static;
-      margin-top:30px;
-      width:228px;
+        position: static;
+        margin-top:30px;
+        width:228px;
     }
 
     #sidebar.affix {
-      position: fixed;
-      top:20px;
-      width:228px;
+        position: fixed;
+        top:20px;
+        width:228px;
     }         
 }
