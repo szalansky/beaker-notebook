@@ -6,7 +6,7 @@
     background-color: #dddddd;
 }                
 
-#sidebar li.active a{
+#sidebar li.active a {
     color: black;
 }            
 
@@ -14,14 +14,15 @@
     background-color: #ffffff;
 }            
 
-.affix-top,.affix{
+.affix-top,
+.affix {
     position: static;
 }
 
 @media (min-width: 768px) {
     #sidebar.affix-top {
-        position: static;
         margin-top:30px;
+        position: static;        
         width:228px;
     }
 

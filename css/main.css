@@ -1,6 +1,6 @@
 body {
-    padding-top: 20px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .navbar {
@@ -12,13 +12,13 @@ body {
 }
 
 .img-language {
-    width: 30%;
     margin: 10px;
+    width: 30%;
 }
 
 .img-language-about {
-    width: 75px;
     margin: 10px;
+    width: 75px;
 }
 
 .row-feature {
