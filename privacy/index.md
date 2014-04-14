@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Privacy policy
+root: "../"
 ---
 
 #Privacy policy

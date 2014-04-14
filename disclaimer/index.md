@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Compliance disclaimer
+root: "../"
 ---
 
 #Compliance disclaimer
