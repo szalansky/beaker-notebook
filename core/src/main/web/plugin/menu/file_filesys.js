@@ -30,9 +30,17 @@
         });
     return deferred.promise;
   };
-  var loadFromHttp = function(url) {
+  var loadFromHttp = function(logicalUrl) {
     var deferred = bkHelper.newDeferred();
-    bkHelper.httpGet("/beaker/rest/http-proxy/load", {url: url}).
+    if (new URL(logicalUrl).hostname == window.location.hostname) {
+      var loadingUrl = logicalUrl;
+      var queryParams = {}
+    }
+    else {
+      var loadingUrl = "/beaker/rest/http-proxy/load";
+      var queryParams = {url: logicalUrl}
+    }
+    bkHelper.httpGet(loadingUrl, queryParams).
         success(function(content) {
           deferred.resolve(content);
         }).
