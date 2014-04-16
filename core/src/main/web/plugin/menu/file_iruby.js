@@ -246,42 +246,42 @@
       showSpinner: false
     };
 
-    var toAdd = [
-      {
-        parent: "File",
-        submenu: "Open",
-        items: [
-          {
-            name: "Open... (.ipynb)",
-            reducedName: "Open...",
-            tooltip: "Open a IRuby notebook from file system and convert it to Beaker notebook",
-            action: function() {
-              bkHelper.showFileChooser(
-                  function(path) {
-                    if (path) {
-                      bkHelper.openURI(IPYNB_PATH_PREFIX + ":/" + path);
-                    }
-                  },
-                  '<div class="modal-header">' +
-                      '   <h1>Open <span ng-show="getStrategy().treeViewfs.showSpinner"><i class="fa fa-refresh fa-spin"></i></span></h1>' +
-                      '</div>' +
-                      '<div class="modal-body">' +
-                      '   <tree-view rooturi="/" fs="getStrategy().treeViewfs"></tree-view>' +
-                      '   <tree-view rooturi="' + homeDir + '" fs="getStrategy().treeViewfs"></tree-view>' +
-                      '</div>' +
-                      '<div class="modal-footer">' +
-                      "   <div class='text-left'>Enter a file path (e.g. /Users/...) or URL (e.g. http://...):</div>" +
-                      '   <p><input id="openFileInput" class="input-xxlarge" ng-model="getStrategy().result" ng-keypress="getStrategy().close($event, close)" focus-start /></p>' +
-                      '   <button ng-click="close()" class="btn">Cancel</button>' +
-                      '   <button ng-click="close(getStrategy().result)" class="btn btn-primary">Open</button>' +
-                      '</div>', // template
-                  fileChooserStrategy// strategy
-              );
-            }
-          }
-        ]
-      }
-    ];
-    pluginObj.onReady(toAdd);
+    // var toAdd = [
+    //   {
+    //     parent: "File",
+    //     submenu: "Open",
+    //     items: [
+    //       {
+    //         name: "Open... (.ipynb)",
+    //         reducedName: "Open...",
+    //         tooltip: "Open a IRuby notebook from file system and convert it to Beaker notebook",
+    //         action: function() {
+    //           bkHelper.showFileChooser(
+    //               function(path) {
+    //                 if (path) {
+    //                   bkHelper.openURI(IPYNB_PATH_PREFIX + ":/" + path);
+    //                 }
+    //               },
+    //               '<div class="modal-header">' +
+    //                   '   <h1>Open <span ng-show="getStrategy().treeViewfs.showSpinner"><i class="fa fa-refresh fa-spin"></i></span></h1>' +
+    //                   '</div>' +
+    //                   '<div class="modal-body">' +
+    //                   '   <tree-view rooturi="/" fs="getStrategy().treeViewfs"></tree-view>' +
+    //                   '   <tree-view rooturi="' + homeDir + '" fs="getStrategy().treeViewfs"></tree-view>' +
+    //                   '</div>' +
+    //                   '<div class="modal-footer">' +
+    //                   "   <div class='text-left'>Enter a file path (e.g. /Users/...) or URL (e.g. http://...):</div>" +
+    //                   '   <p><input id="openFileInput" class="input-xxlarge" ng-model="getStrategy().result" ng-keypress="getStrategy().close($event, close)" focus-start /></p>' +
+    //                   '   <button ng-click="close()" class="btn">Cancel</button>' +
+    //                   '   <button ng-click="close(getStrategy().result)" class="btn btn-primary">Open</button>' +
+    //                   '</div>', // template
+    //               fileChooserStrategy// strategy
+    //           );
+    //         }
+    //       }
+    //     ]
+    //   }
+    // ];
+    // pluginObj.onReady(toAdd);
   });
 })();
