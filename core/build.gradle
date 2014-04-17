@@ -25,7 +25,7 @@ task (npmInstall, type: Exec) {
 }
 
 task (bowerInstall, type: Exec) {
-  commandLine './node_modules/bower/bin/bower', 'install'
+  commandLine './node_modules/bower/bin/bower', '--allow-root', 'install'
 }
 
 task (copyNginx, type: Exec) {
