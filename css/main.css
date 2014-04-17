@@ -2,6 +2,10 @@
     max-width: 900px;
 }
 
+.large-font {
+    font-size: 1.25em;
+}
+
 body {
     padding-bottom: 20px;
     padding-top: 20px;
