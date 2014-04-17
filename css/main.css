@@ -6,6 +6,10 @@
     font-size: 1.25em;
 }
 
+.no-bullet {
+    list-style-type: none;
+}
+
 body {
     padding-bottom: 20px;
     padding-top: 20px;
