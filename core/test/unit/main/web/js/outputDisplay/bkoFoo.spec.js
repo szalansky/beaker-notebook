@@ -39,7 +39,7 @@ describe("Beaker OuputDisplay Foo", function() {
     // and you need to get a new scope that is going to be associated with the OutputDisplay
     var scope = $rootScope.$new();
 
-    // you can assign properties to the scope, so it can be used in your OutputDisplay
+    // you can assign properties to the scope, so it can be used in your OutputDisplay.
     // for example, you can generate some table output and assign it to outputModel
     // note the string 'outputDisplayModel' matches the 'model' attribute above.
     var outputModel = { column: 1234 };
@@ -56,8 +56,8 @@ describe("Beaker OuputDisplay Foo", function() {
     $rootScope.$digest();
 
     // the OutputDisplay is going to create isolated scope(s) that is actually different from
-    // the scope we just create with $rootScope.$new().
-    // Here is how you can get the actual scope visible to your OutputDisplay.
+    // the scope we just created with $rootScope.$new().
+    // Here is how you can get the actual scope that is visible to your OutputDisplay.
     // myScope here is essentially the '$scope' you have in the bkoDirective controller,
     // or 'scope' in the link function.
     // Note, because in the template we say: model='outputDisplayModel'
