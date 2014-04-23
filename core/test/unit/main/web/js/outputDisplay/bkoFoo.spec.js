@@ -28,7 +28,7 @@ describe("Beaker OuputDisplay Foo", function() {
     // you can retrieve it like this:
     fooService = _outputDisplayService_.get("FooService");
 
-    // if you defined a output display with beaker.bkoDirective
+    // if you defined a OutputDisplay with beaker.bkoDirective
     // you can retrieve it like this
     bkoFoo = _outputDisplayFactory_.getImpl("Foo");
 
@@ -36,11 +36,11 @@ describe("Beaker OuputDisplay Foo", function() {
     element = angular.element(
         "<bk-output-display model='outputDisplayModel' type='Foo'></bk-output-display>");
 
-    // and you need to get a new scope
+    // and you need to get a new scope that is going to be associated with the OutputDisplay
     var scope = $rootScope.$new();
 
-    // you can assign properties to the scope, so it can be used in your output display
-    // for example, you can generate some table out put and assign it to outputModel
+    // you can assign properties to the scope, so it can be used in your OutputDisplay
+    // for example, you can generate some table output and assign it to outputModel
     // note the string 'outputDisplayModel' matches the 'model' attribute above.
     var outputModel = { column: 1234 };
     scope.outputDisplayModel = {
@@ -49,18 +49,18 @@ describe("Beaker OuputDisplay Foo", function() {
       }
     };
 
-    // now compile it, Angular create the output display
+    // now compile it, Angular creates the OutputDisplay
     $compile(element)(scope);
 
-    // $digest ensure things are refreshed
+    // $digest ensures things are refreshed
     $rootScope.$digest();
 
-    // the output display is going to create isolated scope(s) that is different from the scope we
-    // just create with $new().
-    // Here is how you can get the actual scope visible to your output display.
-    // myScope here is like '$scope' you have in the bkoDirective controller, or 'scope' in the link
-    // function.
-    // note, because in the template we say: model='outputDisplayModel'
+    // the OutputDisplay is going to create isolated scope(s) that is actually different from
+    // the scope we just create with $rootScope.$new().
+    // Here is how you can get the actual scope visible to your OutputDisplay.
+    // myScope here is essentially the '$scope' you have in the bkoDirective controller,
+    // or 'scope' in the link function.
+    // Note, because in the template we say: model='outputDisplayModel'
     // myScope.model is expected to be scope.outputDisplayModel
     myScope = element.find('.MyFooClass').scope();
   }));
