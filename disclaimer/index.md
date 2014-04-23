@@ -26,7 +26,7 @@ Usage Monitoring. Two Sigma reserves the right, but does not have the obligation
 
 **3. Disclaimer; No Advice**
 
-[INSERT DISCLAIMER LANGUAGE RECOMMENDED BY COUNSEL]
+The primary mission of Two Sigma Open Source, LLC (“TSOS”) is to promote, manage and maintain open source software projects.  TSOS is affiliated with Two Sigma Investments, LLC, Two Sigma Advisers, LLC and Two Sigma Securities, LLC, which (along with certain of their affiliates) engage in various investment advisory and broker-dealer activities.  However, TSOS is not involved in the financial services businesses of these entities.  
 
 **4. Password-Protected Areas**
 
