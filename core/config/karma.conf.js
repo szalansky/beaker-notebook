@@ -14,12 +14,15 @@ module.exports = function (config) {
 
         // list of files / patterns to load in the browser
         files: [
+          'src/main/web/vendor/bower_components/jquery/jquery.min.js',
             'src/main/web/vendor/bower_components/angular/angular.js',
             'src/main/web/vendor/bower_components/angular-mocks/angular-mocks.js',
             'src/main/web/vendor/bower_components/underscore/underscore.js',
-            'src/main/web/js/module/bkNotebookCellModelManager.js',
-            'src/main/web/js/module/bkNotebookVersionManager.js',
-            'test/unit/**/*.js'
+            'src/main/web/js/module/bkOutputDisplay.js',
+            'src/main/web/vendor/bower_components/q/q.js',
+            'src/main/web/js/beaker.js',
+            'src/main/web/js/outputDisplay/bkoFoo.js',
+            'test/unit/main/web/js/outputDisplay/bkoFoo.spec.js'
         ],
 
 

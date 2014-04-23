@@ -68,7 +68,7 @@
       var impl = beaker.toBeAddedToOutputDisplayService[key];
       factory.addService(key, impl);
     }
-    beaker.toBeAddedToOutputDisplayService = null;
+    //beaker.toBeAddedToOutputDisplayService = null;
     beaker.outputDisplayService = factory;
     return factory;
   });
@@ -269,13 +269,13 @@
     for (var key in beaker.toBeAddedToOutputDisplayFactory) {
       beaker.outputDisplayFactory.add(key, beaker.toBeAddedToOutputDisplayFactory[key]);
     }
-    beaker.toBeAddedToOutputDisplayFactory = null;
+    //beaker.toBeAddedToOutputDisplayFactory = null;
 
     for (var key in beaker.toBeAddedToOutputDisplayType) {
       var displays = beaker.toBeAddedToOutputDisplayType[key];
       factory.addOutputDisplayType(key, displays);
     }
-    beaker.toBeAddedToOutputDisplayType = null;
+    //beaker.toBeAddedToOutputDisplayType = null;
 
     return factory;
   });
