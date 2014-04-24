@@ -64,3 +64,11 @@ body {
 .panel-heading {
     cursor: pointer;
 }
+
+.modal {
+ overflow-y: auto;
+}
+
+.modal-open {
+ overflow: auto;
+}
