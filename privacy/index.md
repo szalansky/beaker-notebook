@@ -1,8 +1,10 @@
 ---
+layout: default
+title: Privacy policy
+root: "../"
 ---
 
 #Two Sigma Beaker Privacy Policy
-
 
 Effective Date 21 April 2014 (last updated 21 April 2014)
  
@@ -21,7 +23,7 @@ This Policy describes how Two Sigma Open Source, LLC and its affiliates (“Two 
 
 **We collect information directly from you.**  For example, if you register with us or download our products online.
 
-**We collect information from you passively.** We use tracking tools like browser cookies and web beacons. Learn more about these tools and how you can control them, here. Third party analytics services may use cookies and web beacons through our Site (for example Google Analytics) to provide us with information about how you use and interact with our Site.
+**We collect information from you passively.** We use tracking tools like browser cookies and web beacons. Learn more about these tools and how you can control them, [here](#choices). Third party analytics services may use cookies and web beacons through our Site (for example Google Analytics) to provide us with information about how you use and interact with our Site.
 
 **We get information about you from third parties.**  For example, our business partners may give us information about you.  We may combine this information with information you give us.
 
@@ -46,7 +48,7 @@ This Policy describes how Two Sigma Open Source, LLC and its affiliates (“Two 
 
 **We will share information with third parties who perform services on our behalf.**  For example, we share information with our vendors. 
 
-**We will share information with third parties on our website and other websites.** For example, we may make anonymous usage information publicly available on our Site. Google may use the data collected through Google Analytics to contextualize and personalize the ads of its own advertising network. For Google’s privacy policy see http://www.google.com/analytics/learn/privacy.html.
+**We will share information with third parties on our website and other websites.** For example, we may make anonymous usage information publicly available on our Site. Google may use the data collected through Google Analytics to contextualize and personalize the ads of its own advertising network. For Google’s privacy policy see [http://www.google.com/analytics/learn/privacy.html](http://www.google.com/analytics/learn/privacy.html).
 
 **We will share analytics and usage information with other parties.** For example, we share aggregate anonymous usage data we obtain through Google Analytics and through our own analytics with third parties, including other users of the Beaker software and the Site.
 
@@ -56,12 +58,14 @@ This Policy describes how Two Sigma Open Source, LLC and its affiliates (“Two 
 
 **We may share information for other reasons we may describe to you.**
 
+<a id="choices"> </a>
+
 ###You have certain choices about our marketing and tracking tools.
 **You can opt out of receiving our marketing emails.**  To stop receiving our promotional emails, simply use the opt-out or unsubscribe method provided in emails you receive from us.
  
-**You can control cookies and tracking tools.**  Your browser may give you the ability to control cookies.  How you do so depends on the type of cookie.  Certain browsers can be set to reject browser cookies.  To control flash cookies, which we may use on certain websites from time to time, you can go here.  Why?  Because flash cookies cannot be controlled through your browser settings.  If you block cookies on your browser, certain features on our sites may not work. Options you select are browser and device specific. And, if you block or delete cookies, not all of the tracking that we have described in this policy will stop. You can also opt-out of our usage tracking, and opt-out of Google Analytics tracking, depending on where the tracking occurs. You can opt-out of our usage tracking and Google Analytics tracking, which occurs within the Beaker software, by going to “Settings” and toggling off “Track anonymous usage info,” or selecting “No, don’t track” whenever a dialog box provides you with such an option. To opt-out of Google Analytics tracking which occurs when you visit our website(s), please see the section below.
+**You can control cookies and tracking tools.**  Your browser may give you the ability to control cookies.  How you do so depends on the type of cookie.  Certain browsers can be set to reject browser cookies.  To control flash cookies, which we may use on certain websites from time to time, you can go [here](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html).  Why?  Because flash cookies cannot be controlled through your browser settings.  If you block cookies on your browser, certain features on our sites may not work. Options you select are browser and device specific. And, if you block or delete cookies, not all of the tracking that we have described in this policy will stop. You can also opt-out of our usage tracking, and opt-out of Google Analytics tracking, depending on where the tracking occurs. You can opt-out of our usage tracking and Google Analytics tracking, which occurs within the Beaker software, by going to “Settings” and toggling off “Track anonymous usage info,” or selecting “No, don’t track” whenever a dialog box provides you with such an option. To opt-out of Google Analytics tracking which occurs when you visit our website(s), please see the section below.
 
-**You can control Google Analytics.** Website visitors that don’t want their visit data reported by the Google Analytics JavaScript can install the Google Analytics opt-out browser add-on. This add-on instructs the Google Analytics JavaScript (ga.js, analytics.js, and dc.js) to prohibit sending visit information to Google Analytics. Learn more about the Google Analytics opt-out browser add-on. The Google Analytics opt-out browser add-on does not prevent data or information from being sent to the website itself or in other ways to web analytics services.
+**You can control Google Analytics.** Website visitors that don’t want their visit data reported by the Google Analytics JavaScript can install the [Google Analytics opt-out browser add-on](http://support.google.com/analytics/bin/answer.py?answer=181881&hl=en). This add-on instructs the Google Analytics JavaScript (ga.js, analytics.js, and dc.js) to prohibit sending visit information to Google Analytics. Learn more about the Google Analytics opt-out browser add-on. The Google Analytics opt-out browser add-on does not prevent data or information from being sent to the website itself or in other ways to web analytics services.
 
 **Do Not Track.**  Some browsers have a “Do Not Track” feature that lets you tell websites that you do not want to have your online activities tracked.  These features are not yet uniform, so we are not currently set up to respond to those signals.
  
@@ -71,7 +75,7 @@ If you reside in California, you have the right to ask us one time each year if 
  
 ###This site and children.
 
-Our site is meant for adults.  We do not knowingly collect personally identifiable information from children under 13 without permission from a parent or guardian.  If you are a parent or legal guardian and think your child under 13 has given us information, you can email us at beaker-feedback@twosigma.com.  You can also write to us at the address listed at the end of this policy.  Please mark your inquiries “COPPA Information Request.”  Parents, you can learn more about how to protect children's privacy on-line here.
+Our site is meant for adults.  We do not knowingly collect personally identifiable information from children under 13 without permission from a parent or guardian.  If you are a parent or legal guardian and think your child under 13 has given us information, you can email us at beaker-feedback@twosigma.com.  You can also write to us at the address listed at the end of this policy.  Please mark your inquiries “COPPA Information Request.”  Parents, you can learn more about how to protect children's privacy on-line [here](http://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online).
 
 ###We use standard security measures.
 
@@ -98,8 +102,3 @@ Attn: Beaker Privacy Matters
 ###We may update this Policy.
 
 From time to time we may change our privacy policies.  We will notify you of any material changes to our Policy as required by law.  We will also post an updated copy on our website.  Please check our Site periodically for updates.
-
- 
- 
-
-
