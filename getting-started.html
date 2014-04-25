@@ -278,22 +278,25 @@ title: Getting started
 
 
             <div class="tab-pane" id="linux">
-                <p>This is been tested on Ubuntu 12.04 and 13.10. We expect it will work on other versions of Ubuntu, and should be translatable to other distros.</p>
+                <p>This is been tested on Ubuntu 12.04 LTS and 14.04 LTS. We expect it will work on other versions of Ubuntu, and should be translatable to other distros.</p>
                 <h3>Prerequisites</h3>
                 <p>Run these commands from a terminal:</p>
 
-
+                <p>Java 7:</p>
+                <p>
                 <code>sudo apt-get install python-software-properties</code><br /> 
                 <code>sudo add-apt-repository ppa:webupd8team/java</code><br />
                 <code>sudo apt-get update</code><br />
-                <code>sudo apt-get install oracle-java7-installer # javac -v = 1.7.0_51</code><br />
-                <code>cd /usr/lib/jvm</code><br />
-                <code>sudo ln -s java-7-oracle default-java</code><br />
+                <code>sudo apt-get install oracle-java7-installer</code><br />
+                </p>
+                
+                <p>nginx:</p>
+                
+                <p>
                 <code>sudo add-apt-repository ppa:nginx/stable</code><br />
                 <code>sudo apt-get update</code><br />
-                <code>sudo apt-get install nginx # nginx -v = 1.4.5</code><br />
-                <code>sudo apt-get install -y python</code><br />
-
+                <code>sudo apt-get install nginx</code><br />
+                </p>
 
                 <h3>Download Beaker</h3>
 
@@ -321,18 +324,12 @@ title: Getting started
 
                 <h5>Python</h5>
                 <p>Our Python plugin requires a version of IPython >= 1.0. Install with:</p>
-                <code>sudo apt-get install python-pip python-dev </code><br />
-                <code>sudo pip install ipython jinja2 tornado # ipython -v = 1.2.0</code><br />
-                <code>sudo pip install pyzmq --install-option="--zmq=bundled"</code><br />
-                <code>sudo apt-get install python-matplotlib python-scipy python-pandas</code><br />
-
+                <code>sudo apt-get install ipython-notebook </code><br />
 
                 <h5>R</h5>
                 <p>Run this in your terminal:</p>
                 <p>
-                    <code>sudo add-apt-repository ppa:marutter/rrutter </code><br />
-                    <code>sudo apt-get update </code><br />
-                    <code>sudo apt-get install r-base r-base-dev # R -v = 3.0.2 </code><br />
+                    <code>sudo apt-get install r-base</code><br />
                 </p>
 
                 <p>Open R and run this:</p>
@@ -341,8 +338,7 @@ title: Getting started
                 <code>install.packages("ggplot2")</code>
 
                 <h5>Julia</h5>
-                <p>Install IPython using <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> as mentioned above. Then download and install <a href="http://julialang.org/downloads/">Julia</a>. Finally open Julia and run this:</p>
-                <code>Pkg.add("IJulia")</code>                 
+                <p>Requires <a href="https://github.com/JuliaLang/IJulia.jl">IJulia</a>                
             </div>
 
         </div>
