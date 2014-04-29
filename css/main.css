@@ -1,9 +1,28 @@
-.container {
-    max-width: 900px;
-}
-
 .large-font {
     font-size: 1.25em;
+}
+
+.main-header {
+    font-size: 600%;
+}
+
+.main-subheader {
+    color: #555555;
+}
+
+.science-background {
+    background-image: url(../images/bg/lab.jpg); 
+    background-size: cover, cover;    
+}
+
+.chemicals-background {
+    background-image: url(../images/bg/chemicals.jpg); 
+    background-size: cover, cover;    
+}
+
+.notebook-background {
+    background-image: url(../images/bg/notebook.jpg); 
+    background-size: cover, cover;
 }
 
 .no-bullet {
@@ -12,16 +31,15 @@
 
 body {
     padding-bottom: 20px;
-    padding-top: 20px;
 }
 
 .navbar {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .img-language {
     margin: 10px;
-    width: 65px;
+    width: 60px;
 }
 
 .img-language-about {
