@@ -30,249 +30,34 @@ title: Getting started
             <div class="tab-pane active" id="mac">
                 <h3>Prerequisites</h3>
 
-                <ul>
-                    <li>
-                        <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">JDK 7</a> (Look for jdk-7u55-macosx-x64.dmg)
-                    </li>
-                    <li>
-                        Python - <a href="https://store.continuum.io/cshop/anaconda/">Install with Anaconda</a>
-                    </li>
-                </ul>
+                {% include prereq-mac.html %}
 
                 <h3>Download Beaker</h3>
 
                 <p>You'll receive a download link when you confirm your email.</p>
 
-                <!-- Begin MailChimp Signup Form -->
-                <div id="mc_embed_signup">
-                    <form action="http://twosigma.us3.list-manage.com/subscribe/post?u=d05838b85c905bc618b25e5a9&amp;id=6b3010163c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL"></label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address"> <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_d05838b85c905bc618b25e5a9_6b3010163c" value=""></div>
-                        <div class="clear"></div>
-                    </form>
-                </div>
+                {% include mailchimp.html %}
 
                 <h3>Language support</h3>
 
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>Python</strong>
-                    </div>
+                {% include languages-mac.html %}                
 
-                    <div class="col-sm-11">
-                        <ul class="no-bullet">
-                            <li>
-                                Requires IPython >= 1.0. This comes with <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>R</strong>
-                    </div>
-
-                    <div class="col-sm-11">
-                        <ul>
-                            <li>
-                                <a href="http://cran.r-project.org/bin/macosx/">Install R</a>
-                            </li>
-                            <li>
-                                Open R and run these commands
-
-                                <code>install.packages('Rserve',,'http://www.rforge.net/')</code>
-                                <br />
-                                <code>install.packages("ggplot2")</code>
-                            </li>
-                        </ul>
-                    </div>
-                </div>     
-
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>Julia</strong>
-                    </div>
-
-                    <div class="col-sm-10">
-                        <ul>
-                            <li>
-                                Requires IPython >= 1.0. This comes with <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>
-                            </li>
-                            <li>
-                                Install <a href="http://julialang.org/downloads/">Julia</a>
-                            </li>
-                            <li>
-                                Open Julia and run this:
-                                <code>Pkg.add("IJulia")</code>            
-                            </li>
-                        </ul>     
-                    </div>
-                </div>     
-
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>Node</strong>
-                    </div>
-
-                    <div class="col-sm-10">
-                        <ul class="no-bullet">
-                            <li>
-                                <a href="http://howtonode.org/how-to-install-nodejs">Install node</a>
-                            </li>
-                        </ul> 
-                    </div>
-                </div>    
-
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>Ruby</strong>
-                    </div>
-
-                    <div class="col-sm-10">
-                        <ul class="no-bullet">
-                            <li>
-                                Requires <a href="https://github.com/isotope11/iruby">IRuby</a>
-                            </li>
-                        </ul> 
-                    </div>
-                </div> 
             </div>
 
             <div class="tab-pane" id="windows">
-
                 <h3>Prerequisites</h3>
 
-                <ul>
-                    <li>
-                        <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">JDK 7</a> (Look for jdk-7u55-windows-x64.exe or jdk-7u55-windows-i586.exe)
-                    </li>
-                    <li>
-                        Python - <a href="https://store.continuum.io/cshop/anaconda/">Install with Anaconda</a>
-                    </li>
-                    <li>
-                        nginx - <a href="http://nginx.org/en/download.html">download</a>, Extract the folder and <a href="http://www.computerhope.com/issues/ch000549.htm">add it to your PATH</a>
-                    </li>                    
-                </ul>
+                {% include prereq-win.html %}
 
                 <h3>Download Beaker</h3>
 
                 <p>You'll receive a download link when you confirm your email.</p>
 
-                <!-- Begin MailChimp Signup Form -->
-                <div id="mc_embed_signup">
-                    <form action="http://twosigma.us3.list-manage.com/subscribe/post?u=d05838b85c905bc618b25e5a9&amp;id=6b3010163c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL"></label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address"> <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_d05838b85c905bc618b25e5a9_6b3010163c" value=""></div>
-                        <div class="clear"></div>
-                    </form>
-                </div>
+                {% include mailchimp.html %}
 
                 <h3>Language support</h3>
 
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>Python</strong>
-                    </div>
-
-                    <div class="col-sm-11">
-                        <ul class="no-bullet">
-                            <li>
-                                Requires IPython >= 1.0. This comes with <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>R</strong>
-                    </div>
-
-                    <div class="col-sm-11">
-                        <ul>
-                            <li>
-                                <a href="http://cran.r-project.org/bin/windows/base/">Install R</a>
-                            </li>
-                            <li>
-                                <a href="http://www.computerhope.com/issues/ch000549.htm">Add the install directory to your PATH</a>
-                            </li>
-                            <li>
-                                Open R and run these commands
-
-                                <code>install.packages('Rserve',,'http://www.rforge.net/')</code>
-                                <br />
-                                <code>install.packages("ggplot2")</code>
-                            </li>
-                        </ul>
-                    </div>
-                </div>     
-
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>Julia</strong>
-                    </div>
-
-                    <div class="col-sm-10">
-                        <ul>
-                            <li>
-                                Requires IPython >= 1.0. This comes with <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>
-                            </li>
-                            <li>
-                                Install <a href="http://julialang.org/downloads/">Julia</a>
-                            </li>
-                            <li>
-                                Open Julia and run this:
-                                <code>Pkg.add("IJulia")</code>            
-                            </li>
-                        </ul>     
-                    </div>
-                </div>     
-
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>Node</strong>
-                    </div>
-
-                    <div class="col-sm-10">
-                        <ul class="no-bullet">
-                            <li>
-                                <a href="http://howtonode.org/how-to-install-nodejs">Install node</a>
-                            </li>
-                        </ul> 
-                    </div>
-                </div>    
-
-                <div class="row">
-                    <div class="col-sm-1">
-                        <strong>Ruby</strong>
-                    </div>
-
-                    <div class="col-sm-10">
-                        <ul class="no-bullet">
-                            <li>
-                                Requires <a href="https://github.com/isotope11/iruby">IRuby</a>
-                            </li>
-                        </ul> 
-                    </div>
-                </div>  
-
+                {% include languages-win.html %}     
 
             </div>
 
@@ -280,70 +65,18 @@ title: Getting started
             <div class="tab-pane" id="linux">
                 <p>This is been tested on Ubuntu 12.04 LTS and 14.04 LTS. We expect it will work on other versions of Ubuntu, and should be translatable to other distros.</p>
                 <h3>Prerequisites</h3>
-                <p>Run these commands from a terminal:</p>
 
-                <p>Java 7:</p>
-                <p>
-                    <code>sudo apt-get install python-software-properties</code><br /> 
-                    <code>sudo add-apt-repository ppa:webupd8team/java</code><br />
-                    <code>sudo apt-get update</code><br />
-                    <code>sudo apt-get install oracle-java7-installer</code><br />
-                </p>
-
-                <p>nginx:</p>
-
-                <p>
-                    <code>sudo add-apt-repository ppa:nginx/stable</code><br />
-                    <code>sudo apt-get update</code><br />
-                    <code>sudo apt-get install nginx</code><br />
-                </p>
+                {% include prereq-linux.html %}
 
                 <h3>Download Beaker</h3>
 
                 <p>You'll receive a download link when you confirm your email.</p>
 
-                <!-- Begin MailChimp Signup Form -->
-                <div id="mc_embed_signup">
-                    <form action="http://twosigma.us3.list-manage.com/subscribe/post?u=d05838b85c905bc618b25e5a9&amp;id=6b3010163c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                {% include mailchimp.html %}
 
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL"></label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address"> <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_d05838b85c905bc618b25e5a9_6b3010163c" value=""></div>
-                        <div class="clear"></div>
-                    </form>
-                </div>            
+                <h3>Language support</h3>
 
-                <h3>Languages</h3>
-                <p>Some languages require a packages:</p>
-
-                <h5>Python</h5>
-                <p>Our Python plugin requires a version of IPython >= 1.0. Install with:</p>
-                <code>sudo apt-get install ipython-notebook </code><br /><br />
-
-                <p>Check your ipython version with <code>ipython --version</code> if it's below 1.0, run the following: </p>
-
-                <code>sudo apt-get install python-pip </code><br />
-                <code>sudo pip install --upgrade ipython[all] jinja2 tornado</code><br />
-
-                <h5>R</h5>
-                <p>Run this in your terminal:</p>
-                <p>
-                    <code>sudo apt-get install r-base</code><br />
-                </p>
-
-                <p>Open R and run this:</p>
-                <code>install.packages('Rserve',,'http://www.rforge.net/')</code>
-                <br />
-                <code>install.packages("ggplot2")</code>
-
-                <h5>Julia</h5>
-                <p>Requires <a href="https://github.com/JuliaLang/IJulia.jl">IJulia</a>                
+                {% include languages-linux.html %}   
             </div>
 
         </div>
