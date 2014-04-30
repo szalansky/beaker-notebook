@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-container
 title: Privacy policy
 root: "../"
 ---
