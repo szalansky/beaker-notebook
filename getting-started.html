@@ -1,0 +1,97 @@
+---
+layout: default-container
+title: Getting started
+---
+
+<script>
+    $(document).ready(function() {
+        $("#nav-getting-started").addClass("active");
+    })
+</script>
+
+<div class="row">    
+
+
+
+    <div class="col-sm-9">
+
+        <h1 id="sec2">Installation</h1>
+
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#mac" data-toggle="tab">Mac</a></li>
+            <li><a href="#windows" data-toggle="tab">Windows</a></li>
+            <li><a href="#linux" data-toggle="tab">Linux</a></li>
+
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane active" id="mac">
+                <h3>Prerequisites</h3>
+
+                {% include prereq-mac.html %}
+
+                <h3>Download Beaker</h3>
+
+                <p>You'll receive a download link when you confirm your email.</p>
+
+                {% include mailchimp.html %}
+
+                <h3>Language support</h3>
+
+                {% include languages-mac.html %}                
+
+            </div>
+
+            <div class="tab-pane" id="windows">
+                <h3>Prerequisites</h3>
+
+                {% include prereq-win.html %}
+
+                <h3>Download Beaker</h3>
+
+                <p>You'll receive a download link when you confirm your email.</p>
+
+                {% include mailchimp.html %}
+
+                <h3>Language support</h3>
+
+                {% include languages-win.html %}     
+
+            </div>
+
+
+            <div class="tab-pane" id="linux">
+                <p>This is been tested on Ubuntu 12.04 LTS and 14.04 LTS. We expect it will work on other versions of Ubuntu, and should be translatable to other distros.</p>
+                <h3>Prerequisites</h3>
+
+                {% include prereq-linux.html %}
+
+                <h3>Download Beaker</h3>
+
+                <p>You'll receive a download link when you confirm your email.</p>
+
+                {% include mailchimp.html %}
+
+                <h3>Language support</h3>
+
+                {% include languages-linux.html %}   
+            </div>
+
+        </div>
+
+
+        <hr />
+        <h1 id="sec2">Using Beaker</h1>
+        <p>
+            After installation, just double click <strong>beaker.command</strong> (in Linux, you may need to call ./beaker.command from a terminal)
+        </p>     
+        <p>
+            Start by checking out the <strong>tutorial notebook</strong>. Find it under the 'Help' menu at the top of the page.
+        </p>
+        <img alt="Screenshot of the Beaker help menu" src="images/screenshots/tutorial.png" class="img-responsive">
+    </div>      
+
+
+</div>      

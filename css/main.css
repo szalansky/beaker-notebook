@@ -1,0 +1,92 @@
+.large-font {
+    font-size: 1.25em;
+}
+
+.main-header {
+    font-size: 600%;
+}
+
+.main-subheader {
+    color: #555555;
+}
+
+.science-background {
+    background-image: url(../images/bg/lab.jpg); 
+    background-size: cover, cover;    
+}
+
+.chemicals-background {
+    background-image: url(../images/bg/chemicals.jpg); 
+    background-size: cover, cover;    
+}
+
+.notebook-background {
+    background-image: url(../images/bg/notebook.jpg); 
+    background-size: cover, cover;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+body {
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.img-language {
+    margin: 10px;
+    width: 60px;
+}
+
+.img-language-about {
+    margin: 10px;
+    width: 75px;
+}
+
+.row-feature {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.h-feature {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.h-about {
+    padding-top: 75px;
+}
+
+.text-main {
+    font-size: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.footer {
+    color: #AAAAAA;
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+.img-feature {
+    box-shadow: 5px 5px 10px #AAAAAA;
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
+.modal {
+ overflow-y: auto;
+}
+
+.modal-open {
+ overflow: auto;
+}

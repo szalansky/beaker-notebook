@@ -1,0 +1,185 @@
+---
+layout: default-container
+title: About / features
+---
+
+<script>
+    $(document).ready(function() {
+        $("#nav-about").addClass("active");
+    })
+</script>
+
+<div class="row large-font">    
+
+    <div class="col-sm-3 col-sm-push-9" id="nav-column">
+        <ul class="nav nav-stacked" id="sidebar">
+            <li><a href="#sec2">Features</a></li>
+            <li><a href="#sec3">Examples</a></li>
+            <li><a href="#sec4">Open source</a></li>
+            <li><a href="#sec5">Plugin-based architecture</a></li>
+            <li><a href="#sec6">Two Sigma</a></li>
+        </ul>                    
+    </div>                    
+
+    <div class="col-sm-9 col-sm-pull-3">
+
+        <p>Beaker is a code notebook that allows you to analyze, visualize, and document data using multiple programming languages. Beaker's plugin-based polyglot architecture enables you to seamlessly switch between languages in your documents and add support for your favorite languages that we've missed.</p>
+        <br />
+
+        <img src="images/bk4.png" alt="Screenshot of two Beaker notebooks with Python, R, and HTML code" class="img-responsive">
+        <h2 id="sec2" class="h-about">Features</h2>
+
+        <h3>Language support</h3>
+        <p>
+            We currently provide support for Python, R, Julia, Groovy, JavaScript, Node, Ruby, HTML, Markdown, Latex.
+        </p>
+
+        <p>
+            Beaker is built with a plugin-based architecture, so additional languages can easily by added by us or anybody else.
+        </p>
+
+        <img src="images/languages/python.png" class="img-language-about" alt="Python logo">
+        <img src="images/languages/r.png" class="img-language-about" alt="R logo">
+        <img src="images/languages/julia.png" class="img-language-about" alt="Julia logo">
+        <img src="images/languages/groovy.png" class="img-language-about" alt="Groovy logo">
+        <img src="images/languages/html.png" class="img-language-about" alt="HTML logo">
+        <img src="images/languages/markdown.png" class="img-language-about" alt="Markdown logo">
+        <img src="images/languages/latex.png" class="img-language-about" alt="Latex logo">
+        <img src="images/languages/js.png" class="img-language-about" alt="JavaScript logo" title="JavaScript">   
+        <img src="images/languages/node.png" class="img-language-about" alt="Node logo">   
+        <img src="images/languages/ruby.png" class="img-language-about" alt="Ruby logo" title="Ruby">   
+
+        <h3>Notebook format</h3>
+
+        <div class="row row-feature">
+            <div class="col-sm-6">
+                <h4 class="h-feature">Iterative exploration</h4>
+                <p>
+                    The notebook format is based on blocks of code called cells. Cells can be added anywhere in the notebook and can be edited and run independently from each other. This makes an ideal environment for iterative exploration of data and coding ideas.
+                </p>
+            </div>
+
+            <div class="col-sm-6">
+                <img src="images/screenshots/iterative.png" alt="Screenshot of a Beaker notebook with Python code exploring some JSON data" class="img-responsive img-feature">
+            </div>
+
+        </div>
+
+        <div class="row row-feature">
+            <div class="col-sm-6 col-sm-push-6">
+                <h4 class="h-feature">Visualizations</h4>
+                <p>
+                    Visualizations created with libraries like ggplot2 and matplotlib will appear directly in the notebook along with your code.
+                </p> 
+            </div>
+
+            <div class="col-sm-6 col-sm-pull-6">
+                <img src="images/screenshots/visualizations.png" alt="Screenshot of a Beaker notebook with charts in Matplotlib and ggplot2" class="img-responsive img-feature">
+            </div>
+        </div>
+
+        <div class="row row-feature">
+            <div class="col-sm-6">
+                <h4 class="h-feature">Inline documentation</h4>
+                <p>
+                    The inclusion of markup languages like HTML, Markdown, and Latex means that you can document your work right alongside your code.
+                </p> 
+            </div>
+
+            <div class="col-sm-6">
+                <img src="images/screenshots/inline.png" alt="Screenshot of a Beaker notebook with text, a button, and a YouTube video embeded" class="img-responsive img-feature">
+            </div>
+
+        </div>        
+
+        <div class="row row-feature">
+            <div class="col-sm-6 col-sm-push-6">
+                <h4 class="h-feature">Organization</h4>
+                <p>
+                    Beaker provides several features to help organize your notebooks, for your own convenience or for sharing your work with colleagues.
+                </p> 
+                <p>
+                    These features include: collapsible nested sections with headers, lock notebook (hide all code and disable editing), toggle visibility of code and output on individual cells, initialization cells (run automatically on notebook load), and delete all output.
+                </p>
+            </div>
+
+            <div class="col-sm-6 col-sm-pull-6">
+                <img src="images/screenshots/organization.png" alt="Screenshot showing the hierarchy of section cells in a Beaker notebook" class="img-responsive img-feature">
+            </div>   
+        </div>          
+
+        <h3>Exports and sharing</h3>
+
+        <p>
+            The notebook format is a great way to share your work, and Beaker makes it easy to do that. 
+        </p>
+        <p>
+            We provide a <a href="http://sharing.beakernotebook.com">notebook viewer</a> that can render a notebook from any URL. We also provide a one-click action to save a copy of your notebook to a GitHub Gist and generate a notebook viewer link.
+        </p> 
+
+        <h2 id="sec3" class="h-about">Examples</h2>
+        <p>
+            These are notebooks and snippets that have been exported from Beaker.
+        </p>                  
+
+        <div class="row">    
+            <div class="col-sm-6">
+                <a href="http://sharing.beakernotebook.com/gist/anonymous/11152408">
+                    <img src="images/screenshots/tutorial2.png" class="img-responsive img-thumbnail" alt="screenshot of tutorial">
+                    Beaker tutorial (includes Python, R, Groovy and JavaScript)</a>
+            </div>
+
+            <div class="col-sm-6">
+                <a href="http://sharing.beakernotebook.com/gist/anonymous/11152432">
+                    <img src="images/screenshots/r.png" class="img-responsive img-thumbnail" alt="screenshot R basics notebook">
+                    R basics</a>
+            </div>
+        </div>        
+
+        <div class="row">    
+            <div class="col-sm-6">
+                <a href="http://sharing.beakernotebook.com/gist/anonymous/11152466">
+                    <img src="images/screenshots/groovy.png" class="img-responsive img-thumbnail" alt="screenshot of Groovy basics notebook">
+                    Groovy basics</a>
+            </div>  
+            <div class="col-sm-6">
+                <a href="http://sharing.beakernotebook.com/gist/anonymous/11226379">
+                    <img src="images/screenshots/cell2.png" class="img-responsive img-thumbnail" alt="screenshot of single cell shared">
+                    Single input/output cell</a>
+            </div>              
+        </div>              
+
+        <h2 id="sec4" class="h-about">Open source</h2>
+        <p>
+            Beaker's full source code and documentation is available on <a href="https://github.com/twosigma/beaker-notebook">GitHub</a> under the Apache 2.0 license.
+        </p>     
+
+        <p>
+            Beaker utilizes many open source tools including <a href="http://ipython.org">IPython</a>, <a href="https://rforge.net/Rserve/">Rserve</a>, <a href="https://github.com/JuliaLang/IJulia.jl">IJulia</a>, <a href="http://angularjs.org/">Angular</a>, and <a href="http://getbootstrap.com/">Bootstrap</a>. Check out <a href="https://github.com/twosigma/beaker-notebook">our source</a> to see all the tools we leverage.
+        </p>
+
+        <h2 id="sec5" class="h-about">Plugin-based architecture</h2>
+        <p>
+            Beaker was designed from the beginning with flexibility in mind. All of the core functionality including language evaluation, menu items, and output displays are built using plugins. This means that any language or feature you want to add to Beaker can work just as well as everything we've included by default.
+        </p>          
+
+        <p>
+            Plugins are written in JavaScript and have the option to start a process on the back end server. For anything that uses only JavaScript, you can simply provide your users with the URL for the plugin, which they can load directly from the UI.
+        </p>
+
+        <p>
+            Plugin specifications:
+        </p>
+        <ul>
+            <li><a href="https://github.com/twosigma/beaker-notebook/wiki/Eval-plugin-spec">Evaluator plugins</a></li>
+            <li><a href="https://github.com/twosigma/beaker-notebook/wiki/Menu-plugin-spec">Menu plugins</a></li>
+            <li><a href="https://github.com/twosigma/beaker-notebook/wiki/OutputDisplay-spec">Output display plugins</a></li>
+        </ul>
+
+        <h2 id="sec6" class="h-about">Two Sigma</h2>
+        <p>
+            Beaker is maintained by Two Sigma Open Source, an affiliate of <a href="http://www.twosigma.com">Two Sigma</a>. 
+        </p>                         
+
+    </div>      
+</div>      
