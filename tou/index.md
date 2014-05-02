@@ -28,27 +28,23 @@ Usage Monitoring. Two Sigma reserves the right, but does not have the obligation
 
 The primary mission of Two Sigma Open Source, LLC (“TSOS”) is to promote, manage and maintain open source software projects. TSOS is affiliated with Two Sigma Investments, LLC, Two Sigma Advisers, LLC and Two Sigma Securities, LLC, which (along with certain of their affiliates) engage in various investment advisory and broker-dealer activities. However, TSOS is not involved in the financial services businesses of these entities. Under no circumstances should any material on the site be used or considered as an offer to sell or a solicitation of an offer to buy any security, including any interest in any investment fund sponsored or managed by any Two Sigma entity, or any investment advisory services offered by any Two Sigma entity.
 
-**4. Password-Protected Areas**
-
-Portions of the Site which are password-protected may be accessed only by users who have been issued passwords by an authorized representative of Two Sigma. Such passwords will only be issued to current investors in an investment fund sponsored or managed by Two Sigma, or to prospective investors who are eligible to receive a Confidential Offering Memorandum for one or more of those investment funds or their respective agents and designees. Password-protected portions of the Site may contain performance information for the investment funds sponsored or managed by Two Sigma. Users of the Site acknowledge that past performance is not necessarily indicative of future results. No one may obtain or attempt to obtain unauthorized access to such parts of the Site, or to any other protected materials or information, through any means not intentionally made available by Two Sigma for their specific use. Unauthorized individuals attempting to access, or actually accessing, these areas can be subject to criminal and/or civil prosecution.
-
-**5. Privacy Policy**
+**4. Privacy Policy**
 
 Two Sigma’s Privacy Policy applies to use of this Site, and its terms are made a part of these Terms of Use by this reference. To view Two Sigma’s Privacy Policy, [click here](http://beakernotebook.com/privacy).
 
-**6. No Reliance**
+**5. No Reliance**
 
 While Two Sigma uses reasonable efforts to update the information contained in the Site, Two Sigma makes no representations or warranties as to the accuracy, reliability or completeness of any information at or on the Site. Any content of the Site is subject to change without notice. Permission by Two Sigma to access this Site should not be construed as, or relied upon as, investment, financial, legal, regulatory, accounting, tax or similar advice.
 
-**7. Materials to be Consulted in their Entirety**
+**6. Materials to be Consulted in their Entirety**
 
 All materials at the Site are meant to be reviewed in their entirety, including any footnotes, legal disclaimers, restrictions, disclosures, hedge clauses and any copyright or proprietary notices, including those contained in these Terms of Use. Any disclaimers, restrictions, disclosures or hedge clauses apply to any partial document or material in the same manner as they do the whole, and will be deemed incorporated in the portion of any material or document that you consult or download.
 
-**8. Links to Third Party Web Sites**
+**7. Links to Third Party Web Sites**
 
 Two Sigma has not reviewed any of the websites that may be linked to the Site, and is not responsible for the content of off-site pages or any other website linked or linking to this Site. Two Sigma is not responsible for the privacy practices of such other websites. Your linking to or use of any websites other than this Site is at your own risk. Two Sigma's inclusion of links to other websites does not imply any endorsement of any kind by Two Sigma of the material located on or linked to by such websites and should not be deemed as such by any user of the Site. Two Sigma disclaims any responsibility for the products or services offered or the information contained on any websites other than this Site.
 
-**9. No Warranty**
+**8. No Warranty**
 
 TWO SIGMA AND ITS OFFICERS, DIRECTORS, MEMBERS, PRINCIPALS, INVESTORS, AGENTS AND EMPLOYEES MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, REGARDING THIS SITE AND/OR THE ACCURACY, ADEQUACY, RELIABILITY, TIMELINESS, COMPLETENESS, SUITABILITY OR OTHER CHARACTERISTICS OF THE INFORMATION AND MATERIALS CONTAINED ON OR PRESENTED THROUGH THE SITE. THIS SITE AND ALL SUCH INFORMATION AND MATERIALS ARE PROVIDED "AS IS", WITHOUT ANY WARRANTY OF ANY KIND, AND ON AN "AS AVAILABLE" BASIS. TWO SIGMA, TO THE FULLEST EXTENT PERMITTED BY LAW, HEREBY EXPRESSLY DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, AS TO THE SITE, ANY MATTER RELATED TO THE SITE AND SUCH INFORMATION AND MATERIALS ON THE SITE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT AND AVAILABILITY. TWO SIGMA EXPRESSLY DISCLAIMS LIABILITY FOR ERRORS AND OMISSIONS IN THE SITE OR THE INFORMATION AND MATERIALS CONTAINED THEREIN.
 
@@ -56,7 +52,7 @@ You acknowledge that you are aware that by using this Site you may be subject to
 
 TWO SIGMA AND ITS OFFICERS, DIRECTORS, MEMBERS, PRINCIPALS, INVESTORS, AGENTS AND EMPLOYEES FURTHER ASSUME NO RESPONSIBILITY FOR, AND MAKE NO WARRANTIES THAT, INFORMATION, SERVICES OR FUNCTIONS CONTAINED AT THIS SITE WILL BE UNINTERRUPTED OR ERROR-FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT THE SITE OR THE SERVER THAT MAKES IT AVAILABLE WILL BE FREE OF VIRUSES, WORMS, "TROJAN HORSES" OR OTHER HARMFUL COMPONENTS. TWO SIGMA AND ITS OFFICERS, DIRECTORS, MEMBERS, PRINCIPALS, INVESTORS, AGENTS AND EMPLOYEES SHALL NOT BE LIABLE FOR ANY DAMAGES OF ANY TYPE OR KIND TO YOUR COMPUTER, VIRUSES THAT MAY INFECT YOUR COMPUTER, OR SERVICES REPAIRS OR CORRECTIONS THAT MUST BE PERFORMED ON YOUR COMPUTER OR OTHER PROPERTY ON ACCOUNT OF YOUR ACCESS OR USE OF THE SITE.
 
-**10. Limitation of Liability; Indemnification**
+**9. Limitation of Liability; Indemnification**
 
 IN NO EVENT SHALL TWO SIGMA OR ITS OFFICERS, DIRECTORS, MEMBERS, PRINCIPALS, INVESTORS, CLIENTS, AGENTS OR EMPLOYEES BE LIABLE FOR ANY CLAIMS, LIABILITIES, LOSSES, COSTS OR DAMAGES OF ANY KIND, INCLUDING DIRECT, INDIRECT, PUNITIVE, EXEMPLARY, INCIDENTAL, SPECIAL , LOST PROFITS OR CONSEQUENTIAL DAMAGES, ARISING OUT OF OR IN ANY WAY CONNECTED WITH (I) THE USE OF OR INABILITY TO ACCESS AND/OR USE THE SITE OR WITH ANY DELAY IN USING THE SITE, INCLUDING BUT NOT LIMITED TO LOSS OF REVENUE, TRADING, PROFITS, ANTICIPATED PROFITS, BUSINESS, SAVINGS, GOODWILL, USE, OPPORTUNITY OR DATA; (II) ANY INFORMATION AND MATERIALS CONTAINED ON OR OBTAINED THROUGH THE SITE; OR (III) OTHERWISE ARISING OUT OF THE ACCESS TO AND/OR USE OF THE SITE; IN ANY CASE WHETHER BASED ON THEORIES ARISING IN CONTRACT, TORT (INCLUDING BUT NOT LIMITED TO NEGLIGENCE), STRICT LIABILITY OR OTHERWISE. THE FOREGOING LIMITATIONS APPLY EVEN IF TWO SIGMA OR ANY OF ITS OFFICERS, DIRECTORS, MEMBERS, PRINCIPALS, INVESTORS, CLIENTS, AGENTS OR EMPLOYEES HAVE BEEN ADVISED OF THE POSSIBILITY OF DAMAGES OR COULD HAVE FORESEEN THE DAMAGES. FURTHER, NONE OF TWO SIGMA OR ANY OF ITS OFFICERS, DIRECTORS, MEMBERS, PRINCIPALS, INVESTORS, CLIENTS, AGENTS OR EMPLOYEES WILL BE RESPONSIBLE FOR ANY FAILURE TO COMPLY, BY YOU OR ANY THIRD PARTY, WITH THESE TERMS OF USE OR WITH APPLICABLE FEDERAL, STATE AND/OR LOCAL LAWS. SOME JURISDICTIONS LIMIT THE EXCLUSION OF DAMAGES OR LIMITATION OF LIABILITY, SO THE ABOVE EXCLUSIONS AND LIMITATIONS MAY NOT APPLY TO YOU. IF ANY PART OF THE EXCLUSIONS OR DAMAGES OR LIMITATION OF LIABILITY SET FORTH ABOVE IS UNENFORCEABLE UNDER APPLICABLE LAW, THE AGGREGATE LIABILITY OF TWO SIGMA OR ITS OFFICERS, DIRECTORS, MEMBERS, PRINCIPALS, INVESTORS, AGENTS AND EMPLOYEES WILL BE LIMITED TO THE MAXIMUM EXTENT PERMITTED BY SUCH LAW. IN NO EVENT SHALL TWO SIGMA’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION (WHETHER IN CONTRACT OR TORT, INCLUDING BUT NOT LIMITED TO, NEGLIGENCE) EXCEED THE AMOUNT PAID BY YOU, IF ANY, FOR ACCESSING THIS SITE OR $50, WHICHEVER AMOUNT IS LOWER.
 
@@ -66,7 +62,7 @@ Your sole remedy for dissatisfaction with your use of the Site is to stop using 
 
 You hereby agree, at your own expense, to indemnify, defend and hold Two Sigma and its officers, directors, members, principals, investors, agents and employees harmless from and against any and all liability costs incurred by these parties in connection with any claim arising out of any breach by you of these Terms of Use or any of the representations, warranties and covenants made by you herein, including, without limitation, attorneys' fees and costs. You shall cooperate as fully as reasonably required or requested in the defense of any such claim. Two Sigma reserves the right, at its own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you and you shall not in any event settle any matter without the written consent of Two Sigma.
 
-**11. General**
+**10. General**
 
 These Terms of Use are governed by the internal laws of the State of New York, without reference to its conflicts of laws provisions. You consent to the jurisdiction of, and venue shall lie in, any federal or state court located in the Borough of Manhattan, New York City as the exclusive jurisdiction and venue for the adjudication of all disputes arising out of or relating to the use of the Site. You hereby appoint the Secretary of State of the State of New York as your agent for service of process in any such proceeding.
 
@@ -74,4 +70,4 @@ Any notice to Two Sigma shall be given in writing and sent by registered mail to
 
 If any provision of these Terms of Use is held to be invalid or unenforceable in any jurisdiction, such provision shall be deemed modified to the minimum extent necessary so that such provision shall no longer be held to be invalid or unenforceable, and these Terms of Use shall be interpreted so as to achieve the intent expressed herein to the greatest extent possible in the jurisdiction in question. Any such modification, invalidity or unenforceability shall be strictly limited both to such provision and to such jurisdiction.
 
-Last Updated April 2014
+Last Updated May 2 2014
