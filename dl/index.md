@@ -12,7 +12,7 @@ root: "../"
     Be sure to get the prerequisites listed on the <a href="../getting-started.html">getting started page</a>.
 </div>
 
-Mac: [0.52.1](https://github.com/twosigma/beaker-notebook/releases/download/v0.52.1-beta/beaker-notebook-v0.52.1-beta-mac.zip)
+Mac: [0.52.2](https://github.com/twosigma/beaker-notebook/releases/download/v0.52.2-beta/beaker-notebook-v0.52.2-beta-mac.zip)
 
 Windows: [0.52](https://github.com/twosigma/beaker-notebook/releases/download/v0.52-beta-windows/beaker-notebook-v0.52-beta-windows.zip)
 
