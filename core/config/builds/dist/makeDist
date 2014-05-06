@@ -18,22 +18,55 @@ import os
 import sys
 import shutil
 
+windows = sys.platform == 'win32'
+
 zip_name = sys.argv[1]
+
 os.chdir('../../..')
+
 if os.path.exists(zip_name):
     shutil.rmtree(zip_name)
 if os.path.exists(zip_name + '.zip'):
-    shutil.rmtree(zip_name + '.zip')
+    os.remove(zip_name + '.zip')
+
+if windows:
+    saved_zip_name = zip_name
+    zip_name = 'xyz'
+
 os.mkdir(zip_name)
-if sys.platform == 'darwin' or sys.platform == 'linux2':
-    contents = ['config', 'src/main/web', 'build/install/core', 'nginx', 'LICENSE', 'beaker.command']
-    for f in contents:
-        path = f.split('/')
-        if len(path) > 1:
-            os.makedirs(zip_name + '/' + '/'.join(path[:-1]))
+
+contents = ['config',
+            'src/main/web',
+            'build/install/core',
+            'nginx',
+            'LICENSE']
+if windows:
+    contents.append('beaker.command.bat')
+else:
+    contents.append('beaker.command')
+
+for f in contents:
+    path = f.split('/')
+    if len(path) > 1:
+        os.makedirs(zip_name + '/' + '/'.join(path[:-1]))
+    if windows:
+        if os.path.isdir(f):
+            shutil.copytree(f, zip_name + '/' + f, ignore=shutil.ignore_patterns('.gradle'))
+        else:
+            shutil.copy(f, zip_name + '/' + f)
+    else:
         link = f
         for i in path:
             link = '../' + link
         os.symlink(link, zip_name + '/' + f)
-    os.system('zip -r ' + zip_name + '.zip ' + zip_name + ' --exclude *~ *.gradle')
+
+if windows:
+    os.rename(zip_name, saved_zip_name)
+    zip_name = saved_zip_name
+    os.system('7za a ' + zip_name + '.zip ' + zip_name + ' -x!*~ -xr!.gradle')
+    os.rename(zip_name, 'xyz')
+    zip_name = 'xyz'
+else:
+    os.system('zip -r ' + zip_name + '.zip ' + zip_name + ' --exclude \\*~ \\*.gradle\\*')
+
 shutil.rmtree(zip_name)
