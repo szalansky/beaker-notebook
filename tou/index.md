@@ -1,6 +1,6 @@
 ---
 layout: default-container
-title: Compliance disclaimer
+title: Terms of Use
 root: "../"
 ---
 
