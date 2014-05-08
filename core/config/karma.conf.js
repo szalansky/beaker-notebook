@@ -19,6 +19,7 @@ module.exports = function (config) {
             'src/main/web/vendor/bower_components/angular-mocks/angular-mocks.js',
             'src/main/web/vendor/bower_components/underscore/underscore.js',
             'src/main/web/js/module/bkOutputDisplay.js',
+            'src/main/web/js/module/generalUtils.js',
             'src/main/web/vendor/bower_components/q/q.js',
             'src/main/web/js/beaker.js',
             'src/main/web/js/outputDisplay/bkoFoo.js',

@@ -22,6 +22,7 @@ describe("Beaker OuputDisplay Foo", function() {
 
   // 'beforeEach' will run before each 'it', see below
   beforeEach(module("M_bkOutputDisplay"));
+  beforeEach(module("M_generalUtils"));
   beforeEach(inject(function(_outputDisplayFactory_, _outputDisplayService_, $compile, $rootScope) {
 
     // if you defined a factory with beaker.bkoFactory

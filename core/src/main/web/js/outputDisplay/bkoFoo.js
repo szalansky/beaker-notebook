@@ -23,7 +23,7 @@
     }
   }]);
 
-  beaker.bkoDirective('Foo', ["FooService", function(FooService) {
+  beaker.bkoDirective('Foo', ["FooService", "generalUtils", function(FooService, generalUtils) {
     return {
       template: "<div class='MyFooClass'>I say {{ getText() }}</div>" +
       "<div class='MyFooClass2'>{{ message }}</div><button class='MyButton' ng-click='changeMessage()'>AAA</button>",
@@ -35,6 +35,7 @@
         $scope.changeMessage = function() {
           $scope.message = "Hola, world";
         };
+        console.log(generalUtils.generateID(10));
       }
     };
   }]);
